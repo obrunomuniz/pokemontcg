@@ -33,6 +33,20 @@
   - yarn ios
 ```
 
+## :rocket: New features:
+```shell
+
+  # Finallize ApolloProvider
+  # Automated testing
+  # Ajust a query and components to display correctly
+  # Ajust problem with react-native-paper
+  # Adjust the details page
+  # Add internationalization
+  # Implement PWA
+  
+```
+
+
 ## :rocket: Contributing
 - Fork this repository;
 - Create a branch for your features;

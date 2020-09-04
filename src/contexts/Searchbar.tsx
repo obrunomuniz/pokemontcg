@@ -1,6 +1,6 @@
 import React, { createContext, useState } from 'react';
 
-export const SearchbarContext = createContext({});
+export const SearchbarContext = createContext();
 
 function SearchbarProvider({ children }: any) {
   const [searchbarBoolean, setSearchbarBoolean] = useState(false);

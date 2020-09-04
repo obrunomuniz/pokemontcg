@@ -10,6 +10,7 @@ import {
 
 import apolloClient from './graphql/apolloClient';
 import { SearchbarProvider } from './contexts';
+import Routes from './routes';
 
 const DefaultTheme = {
   ...PaperDefaultTheme,
@@ -26,7 +27,9 @@ const App: React.FC = () => (
     <ApolloProvider client={apolloClient}>
       <PaperProvider theme={DefaultTheme}>
         <NavigationContainer theme={DefaultTheme}>
-          <SearchbarProvider>{/* TODO: Rotasss */}</SearchbarProvider>
+          <SearchbarProvider>
+            <Routes />
+          </SearchbarProvider>
         </NavigationContainer>
       </PaperProvider>
     </ApolloProvider>
